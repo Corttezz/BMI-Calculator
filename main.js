@@ -29,7 +29,7 @@ form.addEventListener('submit', function (e) {
     }else if(imc >= 35 && imc<= 39.9){
         setResultado(`Obesidade grau 2, com imc de: ${imc.toFixed(2)}`)
     }else if(imc>=40){
-        setResultado(`Obesidade grau 3, com imc de: ${imc.toFixed(2)}`)
+        setResultado(`Obesidade de grau 3, com imc de: ${imc.toFixed(2)}`)
     }else {console.log('Esse peso não existe')}
    
 });
